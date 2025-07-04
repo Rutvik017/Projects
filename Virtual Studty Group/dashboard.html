@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Education</div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="aboutUs.html">About</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="library.html">Library</a></li>
+                    <li><a href="assignment.html">Assignments</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <button class="register"><a href="register.html">Register</a></button>
+                <button class="login"><a href="register.html">Login</a></button>
+        </div>
+    </header>
+    
+    <div class="dashboard">
+        <!-- Welcome Back Section -->
+        <section class="welcome-section">
+            <h2>Welcome Back!</h2>
+            <div class="course-card">
+                <span class="class-badge">Class</span>
+                <p>Cybersecurity - Class in 50 min</p>
+                <button class="notify">Notify Me</button>
+            </div>
+        </section>
+        
+        <!-- Overview Section -->
+        <section class="overview-section">
+            <h2>Overview</h2>
+            <div class="progress-overview">
+                <div class="progress-bar-container">
+                    <p>Cybersecurity - 8%</p>
+                    <div class="progress-bar"><div class="fill" style="width: 8%;"></div></div>
+                </div>
+                <div class="progress-bar-container">
+                    <p>Programming - 90%</p>
+                    <div class="progress-bar"><div class="fill" style="width: 90%;"></div></div>
+                </div>
+                <div class="progress-bar-container">
+                    <p>AI - 59%</p>
+                    <div class="progress-bar"><div class="fill" style="width: 59%;"></div></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Today's Process Section -->
+        <section class="progress-section">
+            <h2>Today's Process</h2>
+            <div class="main-progress">
+                <div class="progress-item">
+                    <span>Programming 70%</span>
+                    <div class="progress-bar"><div class="fill" style="width: 70%;"></div></div>
+                    <button class="play-btn">▶</button>
+                </div>
+                <div class="progress-item">
+                    <span>Data Science 40%</span>
+                    <div class="progress-bar"><div class="fill" style="width: 40%;"></div></div>
+                    <button class="play-btn">▶</button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- More Books Section -->
+        <section class="more-books">
+            <h2>More Books</h2>
+            <div class="book-item">
+                <img id="bs" src="business-studies.png" alt="Business Studies"><br/>
+                <p>Business Studies</p>
+            </div>
+            <div class="book-item">
+                <img id="web" src="web-dev.png" alt="Web Development"><br/>
+                <p>Web Development</p>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <p>&copy; 2025 Education. All rights reserved</p>
+            </div>
+            <div class="footer-links">
+                <a href="aboutUs.html">About Us</a>
+                    <a href="aboutUs.html">Contact Us</a>
+                    <a href="aboutUs.html">Support</a>
+                    <a href="aboutUs.html">Help</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+            </div>
+            <div class="footer-social">
+                <p>Follow us on:</p>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

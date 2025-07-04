@@ -1,0 +1,11 @@
+body{
+    background-image: url(hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
